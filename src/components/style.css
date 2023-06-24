@@ -1,0 +1,61 @@
+.main_div {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  height: 80vh;
+}
+.loader {
+  margin: auto;
+  text-align: center;
+}
+.loader img {
+  width: 100px;
+  height: 100px;
+}
+.gist_box {
+  border-bottom: 1px solid black;
+  padding-top: 10px;
+}
+.upper_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.avatar_name {
+  justify-content: space-between;
+  display: flex;
+  padding-bottom: 10px;
+}
+.avatar_name span {
+  align-items: center;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.person_avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.gist_details {
+  display: flex;
+  justify-content: space-between;
+}
+.gist_details span {
+  padding-left: 10px;
+  font-weight: 700;
+}
+.gist_details img {
+  margin-left: 12px;
+}
+.lower_content {
+  max-width: 600px;
+}
+.lower_content span {
+  margin-right: 14px;
+}
+.lower_content p {
+  font-weight: 700;
+  font-size: 16px;
+}
